@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import './globals.css'
 import { ButtonFloatWttp } from './components/Buttons'
-// import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <GoogleTagManager gtmId="GTM-KJF3N826" /> */}
+      <GoogleTagManager gtmId="GTM-M9DBV4SH" />
       <body className={`${roboto.className} bg-white antialiased`}>
         <ButtonFloatWttp />
         {children}
