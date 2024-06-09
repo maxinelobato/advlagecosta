@@ -60,7 +60,7 @@ type CardBenefitsGridH1Props = ComponentProps<'h1'>
 export function CardBenefitsGridH1(props: CardBenefitsGridH1Props) {
   return (
     <h1
-      className="text-brandBG mb-4 mt-4 text-center text-xl font-semibold"
+      className="mb-4 mt-4 text-center text-xl font-semibold text-brandBG"
       {...props}
     />
   )
@@ -70,7 +70,7 @@ type CardBenefitsGridSubtitleProps = ComponentProps<'p'>
 
 export function CardBenefitsGridSubtitle(props: CardBenefitsGridSubtitleProps) {
   return (
-    <h1 className="text-brandBG mb-4 mt-4 text-center text-lg" {...props} />
+    <h1 className="mb-4 mt-4 text-center text-lg text-brandBG" {...props} />
   )
 }
 

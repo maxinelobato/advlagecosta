@@ -31,7 +31,7 @@ type AboutSVGProps = ComponentProps<'path'>
 export function AboutSVG(props: AboutSVGProps) {
   return (
     <svg
-      className="text-brandBG absolute left-0 hidden h-full transform lg:block"
+      className="absolute left-0 hidden h-full transform text-brandBG lg:block"
       viewBox="0 0 100 100"
       fill="currentColor"
       preserveAspectRatio="none slice"
