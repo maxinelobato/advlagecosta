@@ -10,7 +10,7 @@ export function HeroSection(props: HeroSectionProps) {
   return (
     <section className="md:bgDesktop lg:bgDesktop hero min-h-min bg-bgMobile bg-cover bg-center bg-no-repeat sm:bg-bgDesktop sm:bg-cover md:bg-cover lg:bg-cover">
       <div
-        className="hero-overlay bg-opacity-0 bg-gradient-to-r from-black/20 from-5%"
+        className="hero-overlay bg-opacity-0 bg-gradient-to-r from-black/70 from-5%"
         {...props}
       />
     </section>
@@ -21,7 +21,7 @@ type HeroPropertyProps = ComponentProps<'div'>
 
 export function HeroProperty(props: HeroPropertyProps) {
   return (
-    <div className="mt-36 pt-24 sm:my-28 sm:py-16">
+    <div className="mt-48 pt-24 sm:my-28 sm:py-16">
       <div className="mx-auto max-w-screen-xl justify-between gap-x-12 px-4 md:flex md:px-8">
         <div className="max-w-xl space-y-4" {...props} />
       </div>
@@ -75,5 +75,18 @@ export function HeroCardP2(props: HeroCardP2Props) {
       className="pb-1 pt-1 text-sm leading-relaxed text-white md:text-xl"
       {...props}
     />
+  )
+}
+
+type HeroImgPropertyProps = ComponentProps<'div'>
+
+export function HeroImgProperty(props: HeroImgPropertyProps) {
+  return (
+    <>
+      <div
+        className="flex justify-center sm:flex-none sm:justify-start"
+        {...props}
+      />
+    </>
   )
 }

@@ -13,6 +13,7 @@ import {
   HeroCardP1,
   HeroCardP2,
   HeroCardText,
+  HeroImgProperty,
   HeroProperty,
   HeroSection,
 } from './HeroComponents'
@@ -22,7 +23,9 @@ export function Hero() {
     <HeroSection>
       <HeroProperty>
         <HeroCard>
-          <LogoLageCosta />
+          <HeroImgProperty>
+            <LogoLageCosta />
+          </HeroImgProperty>
           <HeroCardText>
             <HeroCardH1>Advocacia Previdenciária</HeroCardH1>
             <HeroCardP1>
