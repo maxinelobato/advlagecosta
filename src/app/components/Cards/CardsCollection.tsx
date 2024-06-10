@@ -158,8 +158,8 @@ export function CardsCollection() {
           <CardButtonProperty>
             <CardButtonAnchor href="https://api.whatsapp.com/send?phone=5531990813600&text=Ol%C3%A1,%20Dra.%20Gabriela!%20Vim%20do%20Google.%20Podemos%20conversar?">
               <CardButtonFlex>
-                <CardButtonText>Saiba mais</CardButtonText>
                 <IconCardWtp icon={LogosWhatsappIcon} />
+                <CardButtonText>Saiba mais</CardButtonText>
               </CardButtonFlex>
             </CardButtonAnchor>
           </CardButtonProperty>

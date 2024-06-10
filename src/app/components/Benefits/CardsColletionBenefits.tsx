@@ -77,8 +77,8 @@ export function CardBenefitsCollection() {
           <CardBenefitsButtonProperty>
             <CardBenefitsButtonAnchor href="https://api.whatsapp.com/send?phone=5531990813600&text=Ol%C3%A1,%20Dra.%20Gabriela!%20Vim%20do%20Google.%20Podemos%20conversar?">
               <CardBenefitsButtonFlex>
-                <CardBenefitsButtonText>Saiba mais</CardBenefitsButtonText>
                 <IconCardWtp icon={LogosWhatsappIcon} />
+                <CardBenefitsButtonText>Saiba mais</CardBenefitsButtonText>
               </CardBenefitsButtonFlex>
             </CardBenefitsButtonAnchor>
           </CardBenefitsButtonProperty>
