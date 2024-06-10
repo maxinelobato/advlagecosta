@@ -134,7 +134,7 @@ type FooterAllRightsProps = ComponentProps<'div'>
 export function FooterAllRights(props: FooterAllRightsProps) {
   return (
     <>
-      <div className="border-t">
+      <div className="bg-black">
         <div className="mx-auto max-w-5xl p-4 pt-10" {...props} />
       </div>
     </>
