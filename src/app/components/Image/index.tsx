@@ -1,6 +1,24 @@
 import Image from 'next/image'
 import logoLageCosta from '../../../../public/img/logolagecosta.png'
 import imgLageCosta from '../../../../public/img/imgabout.webp'
+import bgDesktop from '../../../../public/img/bgdesktop.webp'
+
+export function ImgBgImage() {
+  return (
+    <Image
+      src={bgDesktop}
+      alt="Picture of the author"
+      sizes="100vw"
+      style={{
+        width: '100%',
+        height: 'auto',
+      }}
+      width={500}
+      height={300}
+      className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
+    />
+  )
+}
 
 export function LogoLageCosta() {
   return (

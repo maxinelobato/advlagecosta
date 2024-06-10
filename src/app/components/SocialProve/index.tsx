@@ -83,8 +83,8 @@ export function SocialProve() {
             <SocialProveSpan>dos nossos clientes</SocialProveSpan>
           </SocialProveH1>
           <SocialProveParagraph>
-            Ao longo dos anos a Dra. Lívia só vem colecionando gratidão por seu
-            profissionalismo
+            Ao longo dos anos a Dra. Gabriela e o seu time da Lage Costa
+            Advocacia só vem colecionando gratidão por seu profissionalismo
           </SocialProveParagraph>
         </SocialProveSpace>
         <SocialProveColumnFillBalance>
