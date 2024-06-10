@@ -20,7 +20,7 @@ type AboutPropertySVGImgProps = ComponentProps<'div'>
 export function AboutPropertySVGImg(props: AboutPropertySVGImgProps) {
   return (
     <div
-      className="inset-y-0 right-0 top-0 z-0 mx-auto w-full max-w-xl px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:w-2/4 lg:max-w-full lg:pr-0 xl:pb-0"
+      className="inset-y-0 right-52 top-0 z-0 mx-auto w-full max-w-xl overflow-hidden rounded-t-lg px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:max-w-lg lg:pr-0 xl:pb-0"
       {...props}
     />
   )
