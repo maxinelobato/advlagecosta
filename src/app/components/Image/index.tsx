@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logoLageCosta from '../../../../public/img/logolagecosta.png'
+import logoLageCosta from '../../../../public/img/logolagecosta.svg'
 import imgLageCosta from '../../../../public/img/imgabout.webp'
 import bgDesktop from '../../../../public/img/bgdesktop.webp'
 

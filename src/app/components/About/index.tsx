@@ -5,7 +5,7 @@ import {
 } from '../Buttons/ButtonCta'
 import { ImgGabi } from '../Image'
 import { IconWtp } from '../icons/IconWtp'
-import { LogosWhatsappIcon } from '../icons/LogosWhatsappIcon'
+import { PhWhatsappLogoFill } from '../icons/PhWhatsappLogoFill'
 import {
   AboutArticle,
   AboutDivFlexItens,
@@ -46,7 +46,7 @@ export function About() {
           <AboutDivFlexItens>
             <ButtonHome href="https://api.whatsapp.com/send?phone=5531990813600&text=Ol%C3%A1,%20Dra.%20Gabriela!%20Vim%20do%20Google.%20Podemos%20conversar?">
               <ButtonHomeFlex>
-                <IconWtp icon={LogosWhatsappIcon} />
+                <IconWtp icon={PhWhatsappLogoFill} />
               </ButtonHomeFlex>
               <ButtonHomeText>clique e fale comigo</ButtonHomeText>
             </ButtonHome>

@@ -6,7 +6,7 @@ import {
 import { Credibility } from '../Credibility'
 import { LogoLageCosta } from '../Image'
 import { IconWtp } from '../icons/IconWtp'
-import { LogosWhatsappIcon } from '../icons/LogosWhatsappIcon'
+import { PhWhatsappLogoFill } from '../icons/PhWhatsappLogoFill'
 import {
   HeroCard,
   HeroCardH1,
@@ -38,7 +38,7 @@ export function Hero() {
           </HeroCardText>
           <ButtonHome href="https://api.whatsapp.com/send?phone=5531990813600&text=Ol%C3%A1,%20Dra.%20Gabriela!%20Vim%20do%20Google.%20Podemos%20conversar?">
             <ButtonHomeFlex>
-              <IconWtp icon={LogosWhatsappIcon} />
+              <IconWtp icon={PhWhatsappLogoFill} />
             </ButtonHomeFlex>
             <ButtonHomeText>fale com a especialista agora</ButtonHomeText>
           </ButtonHome>

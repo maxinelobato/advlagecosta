@@ -18,7 +18,7 @@ import {
   FooterSpace,
   FooterUl,
 } from './FooterComponents'
-import { LogosWhatsappIcon } from '../icons/LogosWhatsappIcon'
+import { PhWhatsappLogoFill } from '../icons/PhWhatsappLogoFill'
 import { IconWtpFooter } from '../icons/IconWtpFooter'
 import { MaterialSymbolsAlternateEmail } from '../icons/MaterialSymbolsAlternateEmail'
 import { LogoLageCosta } from '../Image'
@@ -42,7 +42,7 @@ export function Footer() {
                   <FooterButtonProperty>
                     <FooterButtonAnchor href="https://api.whatsapp.com/send?phone=5531990813600&text=Ol%C3%A1,%20Dra.%20Gabriela!%20Vim%20do%20Google.%20Podemos%20conversar?">
                       <FooterButtonFlex>
-                        <IconWtpFooter icon={LogosWhatsappIcon} />
+                        <IconWtpFooter icon={PhWhatsappLogoFill} />
                         <FooterButtonText>
                           <FooterLabelContact>Whatsapp:</FooterLabelContact>
                           (31) 99081-3600

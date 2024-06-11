@@ -12,7 +12,7 @@ export function ButtonHome(props: ButtonHomeProps) {
       <a
         target="_blank"
         aria-label="Clique no botão"
-        className="focus:shadow-outline inline-flex h-14 w-full items-center justify-center rounded-xl bg-brandWts px-8 font-medium text-white shadow-sm shadow-black/30 delay-0 duration-75 ease-in-out hover:scale-105 hover:transition-opacity focus:outline-none sm:h-14 md:w-auto"
+        className="focus:shadow-outline inline-flex h-12 w-auto items-center justify-center rounded-xl bg-brandWts px-8 font-medium text-white shadow-sm shadow-black/30 delay-0 duration-75 ease-in-out hover:scale-105 hover:transition-opacity focus:outline-none sm:h-14 md:w-auto"
         {...props}
       />
     </div>
@@ -30,7 +30,7 @@ type ButtonHomeTextProps = ComponentProps<'div'>
 export function ButtonHomeText(props: ButtonHomeTextProps) {
   return (
     <div
-      className="text-center text-base font-medium uppercase text-white sm:text-left sm:text-lg"
+      className="text-center text-xs font-medium uppercase text-white sm:text-left sm:text-lg"
       {...props}
     />
   )

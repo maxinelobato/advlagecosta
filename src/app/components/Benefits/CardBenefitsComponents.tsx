@@ -143,7 +143,7 @@ export function CardBenefitsButtonAnchor(props: CardBenefitsButtonAnchorProps) {
     <a
       target="_blank"
       aria-label="Clique no botão"
-      className="focus:shadow-outline inline-flex h-10 w-full items-center justify-center rounded-xl bg-brandWts px-6 font-medium tracking-wide text-black shadow-md shadow-black/30 delay-0 duration-75 ease-in-out hover:scale-105 hover:bg-brandWts/80 hover:transition-opacity focus:outline-none sm:h-10 md:w-auto"
+      className="focus:shadow-outline inline-flex h-12 w-auto items-center justify-center rounded-xl bg-brandWts px-8 font-medium text-white shadow-sm shadow-black/30 delay-0 duration-75 ease-in-out hover:scale-105 hover:transition-opacity focus:outline-none sm:h-14 md:w-auto"
       {...props}
     />
   )
@@ -160,7 +160,7 @@ type CardBenefitsButtonTextProps = ComponentProps<'div'>
 export function CardBenefitsButtonText(props: CardBenefitsButtonTextProps) {
   return (
     <div
-      className="ml-3 text-center text-base font-medium uppercase text-white sm:text-left sm:text-lg"
+      className="ml-3 text-center text-xs font-medium uppercase text-white sm:text-left sm:text-lg"
       {...props}
     />
   )

@@ -1,6 +1,6 @@
 import { IconCardProperty } from '../icons/IconCard'
 import { IconCardWtp } from '../icons/IconCardWtp'
-import { LogosWhatsappIcon } from '../icons/LogosWhatsappIcon'
+import { PhWhatsappLogoFill } from '../icons/PhWhatsappLogoFill'
 import {
   CardGridBg,
   CardGridH1,
@@ -78,7 +78,7 @@ export function CardsCollection2() {
           <CardButtonProperty>
             <CardButtonAnchor href="https://api.whatsapp.com/send?phone=5531990813600&text=Ol%C3%A1,%20Dra.%20Gabriela!%20Vim%20do%20Google.%20Podemos%20conversar?">
               <CardButtonFlex>
-                <IconCardWtp icon={LogosWhatsappIcon} />
+                <IconCardWtp icon={PhWhatsappLogoFill} />
                 <CardButtonText>Saiba mais</CardButtonText>
               </CardButtonFlex>
             </CardButtonAnchor>

@@ -1,7 +1,7 @@
 import React from 'react'
 import type { SVGProps } from 'react'
 
-export function LogosWhatsappIcon(props: SVGProps<SVGSVGElement>) {
+export function PhWhatsappLogoFill(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
