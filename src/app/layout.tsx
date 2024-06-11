@@ -23,8 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-M9DBV4SH" />
       <body className={`${roboto.className} bg-white antialiased`}>
+        <GoogleTagManager gtmId="GTM-M9DBV4SH" />
         <ButtonFloatWttp />
         {children}
       </body>
