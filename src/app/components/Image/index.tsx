@@ -49,7 +49,6 @@ export function ImgGabi() {
         alt="Imagem"
         src={imgLageCosta}
         className="h-auto w-full rounded-xl object-cover shadow-lg md:h-auto lg:h-full lg:rounded-none lg:shadow-none"
-        priority
         loading="lazy"
         sizes='"(max-width: 768px) 100vw,
         (max-width: 1200px) 50vw,
