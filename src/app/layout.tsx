@@ -24,9 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} bg-white antialiased`}>
+        {children}
         <GoogleTagManager gtmId="GTM-M9DBV4SH" />
         <ButtonFloatWttp />
-        {children}
       </body>
     </html>
   )
