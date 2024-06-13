@@ -23,9 +23,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-M9DBV4SH" />
       <body className={`${roboto.className} bg-white antialiased`}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-M9DBV4SH"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
         {children}
-        <GoogleTagManager gtmId="GTM-M9DBV4SH" />
         <ButtonFloatWttp />
       </body>
     </html>
