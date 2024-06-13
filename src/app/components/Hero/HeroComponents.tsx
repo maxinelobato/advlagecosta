@@ -4,16 +4,16 @@ export interface HeroComponents {
   className: string
 }
 
-type HeroSectionBgImageProps = ComponentProps<'div'>
+// type HeroSectionBgImageProps = ComponentProps<'div'>
 
-export function HeroSectionBgImage(props: HeroSectionBgImageProps) {
-  return (
-    <div
-      className="bg-opacity-0 bg-gradient-to-r from-black/70 from-5%"
-      {...props}
-    />
-  )
-}
+// export function HeroSectionBgImage(props: HeroSectionBgImageProps) {
+//   return (
+//     <div
+//       className="bg-opacity-0 bg-gradient-to-r from-black/10 from-5%"
+//       {...props}
+//     />
+//   )
+// }
 
 type HeroSectionRootProps = ComponentProps<'section'>
 
@@ -27,7 +27,7 @@ export function HeroSection(props: HeroSectionProps) {
   return (
     <section className="md:bgDesktop lg:bgDesktop hero min-h-min bg-bgMobile bg-cover bg-fixed bg-center bg-no-repeat sm:bg-bgDesktop sm:bg-cover md:bg-cover lg:bg-cover">
       <div
-        className="hero-overlay bg-opacity-0 bg-gradient-to-r from-black/70 from-5%"
+        className="hero-overlay bg-opacity-0 bg-gradient-to-r from-black/5 from-5%"
         {...props}
       />
     </section>
