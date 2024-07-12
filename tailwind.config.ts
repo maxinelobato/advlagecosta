@@ -12,9 +12,6 @@ const config: Config = {
         brandWts: '#006400',
         brandBG: '#747474',
       },
-      fontFamily: {
-        sans: 'var-(--font-roboto)',
-      },
     },
   },
   plugins: [require('daisyui')],
